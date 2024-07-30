@@ -1,0 +1,37 @@
+{
+  "pluginAlias": "DoHomeLight",
+  "pluginType": "accessory",
+  "singular": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "default": "Light 1"
+      },
+      "prodname": {
+        "title": "Usually Last 4 Character of Mac Address",
+        "type": "string",
+        "required": true,
+        "default": "65ff"
+      },
+      "subnet": {
+        "title": "Your Subnet",
+        "type": "string",
+        "default": "192.168.100.255"
+      },
+      "port": {
+        "title": "UDP podcast path",
+        "type": "integer",
+        "default": 6091
+      },
+      "deviceid": {
+        "title": "Device ID",
+        "type": "string",
+        "default": "955sga0g65ff_DT-LIGHT_HOMEKIT"
+      }
+    }
+  }
+}
